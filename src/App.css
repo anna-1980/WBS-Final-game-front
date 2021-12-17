@@ -1,38 +1,261 @@
-.App {
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: linear-gradient(to right, #d2cd54, #6b8d1d, #4a7433); */
+  /* background-image: linear-gradient(to top, black, #25372a); */
+
+  background-image: url("./pictures/HalpDrop02-DarkBlue.png");
+  /* background-color: chartreuse; */
+  background-size: 20em;
+  background-repeat: repeat;
+  color: rgb(248, 254, 217);
+  font-weight: 200;
+  background-attachment: fixed;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Share Tech Mono", monospace;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+  max-width: 100%;
+
+}
+
+h2 {
+  display: flex;
+  padding: 1rem 0rem;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 30rem;
+}
+
+div {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div > h1 {
+  color: rgb(255, 252, 170);
+  text-align: center;
+  text-shadow: -5px -5px 15px rgb(77, 77, 77), 5px 5px 15px rgb(55, 55, 55);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling Navigation Buttons START */
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(247, 250, 255);
+  background-color: rgb(16, 65, 124);
+  border-radius: 10px;
+  margin: 0.3rem;
+  padding: 0.1rem 0.2rem 0rem 0.1rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button:hover {
+  color: rgb(153, 155, 160);
+  box-shadow: -5px -5px 20px rgb(245, 247, 211), 5px 5px 20px rgb(245, 247, 211);
+  background-color: rgb(178, 240, 78);
+  cursor: grabbing;
+}
+
+button:active {
+  color: rgb(11, 74, 11);
+  background-color: rgb(242, 255, 160);
+}
+
+button h2 {
+  padding: 0rem 0.5rem;
+  font-size: 2rem;
+}
+
+/* Styling Navigation Buttons END */
+
+/* Styling Navigation START */
+
+.link {
+  color: rgb(247, 250, 255);
+  background-color: rgb(16, 65, 124);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: 2px solid rgb(66, 124, 196);
+  padding: 5px 15px 10px;
+  margin: 0 1rem;
+  display: inline-block;
+  border-radius: 0% 50% 0% 50%;
+  text-align: end;
+  box-shadow: inset -2px -3px 4px rgba(18, 18, 18, 0.5),
+    inset 3px 4px 5px rgba(95, 140, 194, 0.8);
+}
+
+.link:hover {
+  color: rgb(13, 50, 95);
+  background-color: rgb(107, 162, 228);
+  cursor: -webkit-grabbing;
+  box-shadow: -5px -5px 10px rgb(160, 228, 249), 5px 5px 20px rgb(245, 247, 211),
+    inset -2px -3px 4px rgba(13, 58, 15, 0.5),
+    inset 3px 4px 5px rgba(172, 189, 235, 0.8);
+}
+
+.link:active {
+  color: rgb(13, 50, 95);
+  background-color: rgb(172, 206, 248);
+  cursor: -webkit-pointer;
+}
+
+.NavBarContainer {
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
+  padding: 1.8rem 0.1rem 4rem 0.1rem;
+  margin: 0;
+  background-color: rgb(16, 65, 124);
+  position: fixed;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 5rem;
+  font-size: 1.2rem;
+  z-index: 1;
+  /*   z-index: 10;  */
+}
+
+/* Styling Navigation END */
+
+/* contact form  START */
+.form {
+  display: flex;
+  font-size: 1.5rem;
+  /* background-color: chartreuse; */
+  align-content: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 8px 0;
+  border: 1px solid rgb(252, 255, 72);
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 8px 0;
+  border: 1px solid rgb(252, 255, 72);
+  border-radius: 4px;
+}
+label {
+  padding: 0.5rem;
+}
+.nameInput {
+  border-radius: 20px;
+  display: flex;
+  justify-items: flex-end;
+}
+.nameInput > textarea {
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.emailAddress {
+  display: flex;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+.contactMessage {
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+  /* padding: 0.3rem; */
+}
+.msgText {
+  align-content: flex-end;
+  left: 0px;
+  top: 0px;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+.formButton {
+  display: flex;
+  font-family: "Share Tech Mono", monospace;
+  padding: 0rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+.buttonDiv {
+  align-content: flex-start;
+  padding-left: 16rem;
+}
+/* contact form  END */
+
+
+
+
+
+/* Footer styling */
+
+/* .keepFooterDown {
+  width: 2rem;
+  height: 30vh;
+} */
+
+.footerMainDiv {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 20vh;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* justify-content: center; */
+  flex-direction: column;
+  background-size: 100%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-bottom: 0;
+  background-color: rgb(16, 65, 124);
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.textFooter {
+  font-size: 1.5rem;
+  padding: 1rem 0rem 0.1rem 0rem;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textFooter,
+h5,
+h6 {
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  margin: 0;
 }
+
+.socialMedia {
+  padding: 0;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+i {
+  font-size: 2rem;
+  background-color: rgb(160, 103, 32, 0);
+}
+
+i:hover {
+  box-shadow: -2px -2px 10px rgb(245, 247, 211), 2px 2px 10px rgb(245, 247, 211);
+}
+a {
+  padding: 0.8rem;
+  color: rgb(248, 254, 217);
+}
+/* Footer styling  END*/

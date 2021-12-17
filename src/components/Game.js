@@ -17,7 +17,23 @@ const Game = () => {
        
       <div className="footerDown"></div>
 
-
+      <p> a;efia;gi;righ;hrg;dfhbvlkl kkjdf;lkbjv;dfkjb;dfjb;dfjb//#endregionadfgojd;fkj//#endregiondfgj;
+        
+      df;kjg;dsfkjg;dsfkjg;dfjgD:FljgD:FLjgD:FLjgD:LFJgDF"LgjdS"FglkDSF"gkdS"FGkdfs"Grkguerihglkjhdskjhsfljkdhgshg
+        ldsfhgsdlfhgd;lfjhg;ldfhg;lhds;ghfdhgslshdlfgsldfjghkfjdhveoruhvoer
+        erghjefljhvlefhbvolfhbohfbihsdfgibhdpfgbasdhfgjdhgvosrefsdcaljdecoawefh
+        df;kjg;dsfkjg;dsfkjg;dfjgD:FljgD:FLjgD:FLjgD:LFJgDF"LgjdS"FglkDSF"gkdS"FGkdfs"Grkguerihglkjhdskjhsfljkdhgshg
+        ldsfhgsdlfhgd;lfjhg;ldfhg;lhds;ghfdhgslshdlfgsldfjghkfjdhveoruhvoer
+        erghjefljhvlefhbvolfhbohfbihsdfgibhdpfgbasdhfgjdhgvosrefsdcaljdecoawefh
+        df;kjg;dsfkjg;dsfkjg;dfjgD:FljgD:FLjgD:FLjgD:LFJgDF"LgjdS"FglkDSF"gkdS"FGkdfs"Grkguerihglkjhdskjhsfljkdhgshg
+        ldsfhgsdlfhgd;lfjhg;ldfhg;lhds;ghfdhgslshdlfgsldfjghkfjdhveoruhvoer
+        erghjefljhvlefhbvolfhbohfbihsdfgibhdpfgbasdhfgjdhgvosrefsdcaljdecoawefh
+        df;kjg;dsfkjg;dsfkjg;dfjgD:FljgD:FLjgD:FLjgD:LFJgDF"LgjdS"FglkDSF"gkdS"FGkdfs"Grkguerihglkjhdskjhsfljkdhgshg
+        ldsfhgsdlfhgd;lfjhg;ldfhg;lhds;ghfdhgslshdlfgsldfjghkfjdhveoruhvoer
+        erghjefljhvlefhbvolfhbohfbihsdfgibhdpfgbasdhfgjdhgvosrefsdcaljdecoawefh
+        df;kjg;dsfkjg;dsfkjg;dfjgD:FljgD:FLjgD:FLjgD:LFJgDF"LgjdS"FglkDSF"gkdS"FGkdfs"Grkguerihglkjhdskjhsfljkdhgshg
+        ldsfhgsdlfhgd;lfjhg;ldfhg;lhds;ghfdhgslshdlfgsldfjghkfjdhveoruhvoer
+        erghjefljhvlefhbvolfhbohfbihsdfgibhdpfgbasdhfgjdhgvosrefsdcaljdecoawefhc"dfkj</p>
 
       </div>
 

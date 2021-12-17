@@ -16,6 +16,9 @@ const Navbar = () => {
           <NavLink className="link" to="/About">
             About
           </NavLink>
+          <NavLink className="link" to="/Contact">
+            Contact
+          </NavLink>
   {/* Anna git problem , or not? */}
  
         </nav>
