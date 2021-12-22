@@ -23,6 +23,7 @@ body {
   font-family: "Share Tech Mono", monospace;
   text-shadow: -1px -1px 10px rgb(24, 24, 24);
   max-width: 100%;
+  /* overflow: auto; */
 
 }
 
@@ -44,6 +45,18 @@ div > h1 {
   color: rgb(255, 252, 170);
   text-align: center;
   text-shadow: -5px -5px 15px rgb(77, 77, 77), 5px 5px 15px rgb(55, 55, 55);
+}
+
+.landingHeaderDiv{
+  width: 100%;
+  height: 100%;
+}
+
+.MainDiv{
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+  background-color: azure;
 }
 
 /* Styling Navigation Buttons START */
@@ -213,9 +226,9 @@ label {
 
 .footerMainDiv {
   bottom: 0;
-  position: fixed;
+  position: fixed; /*it goes up if remove this*/
   width: 100%;
-  height: 20vh;
+  /* height: 20vh; */
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -225,6 +238,7 @@ label {
   margin-bottom: 0;
   background-color: rgb(16, 65, 124);
   z-index: 1;
+
 }
 
 .textFooter {
@@ -259,3 +273,23 @@ a {
   color: rgb(248, 254, 217);
 }
 /* Footer styling  END*/
+
+displayContainer {
+  display: flex;
+  max-height: 50%;
+}
+
+.video > div {
+  justify-self: center;
+  max-height: 100%;
+  max-width: 100%;
+  padding-bottom: 5rem;
+  margin-bottom: 10rem;
+}
+
+/* Keeping footer down and content scrollable */
+.footerDown {
+  width: 100%;
+  height: 20rem;
+  background-color: azure;
+}

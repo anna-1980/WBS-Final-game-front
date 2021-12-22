@@ -2,7 +2,7 @@ import Footer from "./Footer";
 
 const Home = () => {
     return (
-      <div >
+      <div  className="MainDiv">
     
         <div>
        Some home component
