@@ -24,9 +24,7 @@ function App() {
           </Route>
         </Routes>
         </div>
-        <div className="footerMainDiv">
-          <Footer />
-        </div>
+
         <div>
           just anything
         </div>

@@ -1,4 +1,5 @@
 import Form from "./Form";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -22,9 +23,10 @@ const Contact = () => {
         <div> </div>
          
       </div>
-      <div className="footerDown">
-        
-      </div>
+      <div className="footerDown"></div>
+      <div className="footerMainDiv">
+          <Footer />
+        </div>
     </div>
   );
 };
