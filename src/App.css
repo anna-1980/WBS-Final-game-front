@@ -260,3 +260,9 @@ a {
   color: rgb(248, 254, 217);
 }
 /* Footer styling  END*/
+
+.pageHead {
+  display:flex;
+  flex-direction: column;
+  position: static;
+}

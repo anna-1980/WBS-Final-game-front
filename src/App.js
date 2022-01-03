@@ -13,20 +13,24 @@ function App() {
     <div className="App">
       <div className="landingHeaderDiv"></div>
         <div className="navigation">
+        <Navbar />
         <Routes>
-          <Route path='/' element={ <Navbar />}>
+          {/* <Route path='/' element={ <Navbar />}> */}
             <Route index element= {<Home />} />
             <Route path='about' element= {<About />} />
             <Route path='Home' element= {<Home />} />
             <Route path='Game' element= {<Game />} />
             <Route path='Contact' element= {<Contact />} />
             <Route path = '*'  element = {<NotFound />} />
-          </Route>
+          {/* </Route> */}
         </Routes>
         </div>
 
         <div>
           just anything
+        </div>
+        <div className="footerMainDiv">
+          <Footer />
         </div>
     </div>
   );

@@ -11,6 +11,8 @@ const Contact = () => {
         </button> */}
       </div>
       <Form />
+      <Form />
+      <Form />
       <div className="bouncer">
         <div> </div>
         <div> </div>

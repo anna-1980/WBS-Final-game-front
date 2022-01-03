@@ -22,7 +22,7 @@ const Navbar = () => {
   {/* Anna git problem , or not? */}
  
         </nav>
-        <Outlet />
+        {/* <Outlet /> */}
       </div>
     </>
   );
