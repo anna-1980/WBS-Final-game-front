@@ -26,9 +26,7 @@ const Contact = () => {
          
       </div>
       <div className="footerDown"></div>
-      <div className="footerMainDiv">
-          <Footer />
-        </div>
+
     </div>
   );
 };
