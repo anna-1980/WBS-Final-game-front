@@ -165,16 +165,16 @@ const Game2 = () => {
   return (
    <div> 
     <div> ⭐ Checking games ⭐</div>
-     <div ></div>
+     <div id = 'game-content' className='gameFreaky'></div>
     </div>
   );
 };
 
 export default Game2;
-    {/* <div> ⭐ Checking games ⭐</div> */}
+    
         
      
          
      
-       {/* <div className="footerDown">once</div> */}
+ 
        

@@ -293,3 +293,8 @@ displayContainer {
   height: 20rem;
   background-color: azure;
 }
+
+.gameFreaky{
+  border-color: yellow;
+  border: 10px;
+}
