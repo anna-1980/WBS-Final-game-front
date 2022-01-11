@@ -145,7 +145,7 @@ const Game2 = () => {
     type: Phaser.AUTO,
     width: 500,
     height: 600,
-    parent: 'game-content',
+    parent: 'myGame',
     physics: {
       default: 'arcade',
       arcade: {
@@ -164,11 +164,13 @@ const Game2 = () => {
   
   return (
    <div> 
-    <div> ⭐ Checking games ⭐</div>
-     <div id = 'game-content' className='gameFreaky'></div>
+    <div> ⭐ from Game 2 component ⭐</div>
+     <div ></div>
     </div>
   );
 };
+
+// const game = new Phaser.Game(config);
 
 export default Game2;
     
