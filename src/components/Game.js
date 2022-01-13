@@ -8,7 +8,11 @@ const Game = () => {
       <div className="creators">
         <div> ⭐ Checking games ⭐</div>
        {/* <div ><Video /></div> */}
-
+       
+       <iframe  
+       title='game' 
+       src="https://angry-viruses.netlify.app/"
+       id="iframe1"></iframe>
 
       <div>   
       <div className="footerDown"></div>
