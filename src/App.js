@@ -29,7 +29,7 @@ function App() {
         <div>
           just anything
         </div>
-        <div className="footerMainDiv">
+        <div >
           <Footer />
         </div>
     </div>

@@ -214,22 +214,28 @@ label {
 .footerMainDiv {
   bottom: 0;
   left: 0;
+  margin-bottom: 20px;
   position: fixed;
   width: 100%;
-  height: 20vh;
-  display: flex;
+  height: 5rem;
+ 
   align-items: center;
   /* justify-content: center; */
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   background-size: 100%;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1.2rem 0.5rem 1rem 0.5rem;
   margin-bottom: 0;
   background-color: rgb(16, 65, 124);
   z-index: 1;
 }
+.footerMainDiv {
+display:flex;
+}
 
 .textFooter {
-  font-size: 1.5rem;
+ 
+  font-size: 1.1rem;
   padding: 1rem 0rem 0.1rem 0rem;
   margin: 0;
 }
@@ -237,19 +243,25 @@ label {
 .textFooter,
 h5,
 h6 {
-  padding: 0.2rem 1rem 0.2rem 1rem;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   margin: 0;
 }
 
 .socialMedia {
-  padding: 0;
+  width: 100%;
+  /* padding: 0; */
   padding-left: 1rem;
+  padding-top: 0.5;
   margin: 0;
 }
 
 i {
+  padding-top: 0.5rem ;
+  padding-bottom: 1rem;
   font-size: 2rem;
   background-color: rgb(160, 103, 32, 0);
+
 }
 
 i:hover {
@@ -262,6 +274,7 @@ a {
 /* Footer styling  END*/
 
 .pageHead {
+  margin-top: 6rem;
   display:flex;
   flex-direction: column;
   position: static;
