@@ -1,5 +1,4 @@
- import PostGames from "./PostGame";
- import { Outlet, NavLink } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 const Game = () => {
   return (
     <div className="pageHead">
