@@ -1,19 +1,21 @@
-// import Canvas from './Canvas';
-// import OneGame from './OneGame';
-import Video from "./Video";
+ import PostGames from "./PostGame";
+ import { Outlet, NavLink } from "react-router-dom";
 const Game = () => {
   return (
     <div className="pageHead">
   
       <div className="creators">
-        <div> ⭐ Checking games ⭐</div>
-       {/* <div ><Video /></div> */}
+        <h1> ⭐ Play a game ⭐</h1>
+       
        
        <iframe  
        title='game' 
        src="https://angry-viruses.netlify.app/"
        id="iframe1"></iframe>
 
+      <NavLink className="postNewGame" to="/postGame">
+      <button>Post a Game</button>
+          </NavLink>
       <div>   
       <div className="footerDown"></div>
       </div>

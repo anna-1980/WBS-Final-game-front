@@ -26,6 +26,10 @@ body {
 
 }
 
+h1 {
+  padding-bottom: 2rem;
+}
+
 h2 {
   display: flex;
   padding: 1rem 0rem;
@@ -287,6 +291,48 @@ iframe{
   /* border-width: 10px; */
   /* border-color: chartreuse; */
 }
+
+/* game post button */
+.postNewGame{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.postNewGame > button {
+  padding: 0.5rem;
+}
+
+.postNewGame > button:hover {
+  background-color: rgb(124, 16, 115);
+  padding: 0.5rem;
+  box-shadow: -5px -5px 20px rgb(243, 220, 170), 5px 5px 20px rgb(245, 247, 211);
+  
+}
+
+.postButton{
+  padding: 0.5rem;
+}
+
+.postButton:hover{
+  color: rgb(243, 169, 237);
+  box-shadow: -5px -5px 20px rgb(125, 240, 115), 5px 5px 20px rgb(125, 240, 115);
+  background-color: rgb(180, 9, 166);
+}
+
+button:hover {
+  box-shadow: -5px -5px 20px rgb(245, 247, 211), 5px 5px 20px rgb(245, 247, 211);
+  background-color: rgb(178, 240, 78);
+  cursor: grabbing;
+}
+
+button:active {
+  color: rgb(11, 74, 11);
+  background-color: rgb(242, 255, 160);
+}
+
+
+/* post new game styles */
+
 
 /* media query */
 
