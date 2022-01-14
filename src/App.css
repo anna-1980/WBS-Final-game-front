@@ -27,12 +27,14 @@ body {
 }
 
 h1 {
-  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
   display: flex;
   padding: 1rem 0rem;
+  font-size: 1rem;
 }
 
 p {
@@ -278,10 +280,13 @@ a {
 /* Footer styling  END*/
 
 .pageHead {
-  margin-top: 6rem;
-  display:flex;
-  flex-direction: column;
-  position: static;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding-top: 1rem;
+   
 }
 
 iframe{
@@ -332,8 +337,37 @@ button:active {
 
 
 /* post new game styles */
+.displayGames{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+ 
+}
+.gamesContainer{
+  
+}
 
 
+/* spinning mandala */
+.mandala {
+  align-items: center;
+  justify-items: center;
+  /* position: absolute; */
+  height: 7rem;
+  width: 7rem;
+  background-size: 100%;
+  background-image: url("./pictures/organelleMandala-small.png");
+  background-repeat: no-repeat;
+  animation: spin 20s linear infinite;
+  z-index: 1;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 /* spinner */
 .bouncer {
   margin-left: 42%;
