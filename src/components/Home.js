@@ -1,13 +1,15 @@
-import Footer from "./Footer";
-
-const Home = () => {
-    return (
-      <div >
-    
-        <div>
-       Some home component
-        </div>
  
+ 
+const Home = () => {
+
+
+
+
+    return (
+      <div className="pageHead">
+       <div className="mandala"></div>
+
+       <div>Trying to connect to the API</div>
       </div>
     );
   };

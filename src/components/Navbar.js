@@ -10,8 +10,8 @@ const Navbar = () => {
           <NavLink className="link" to="/">
             Home
           </NavLink>
-          <NavLink className="link" to="/Game">
-            Game
+          <NavLink className="link" to="/Games">
+            Games
           </NavLink>
           <NavLink className="link" to="/About">
             About
@@ -22,7 +22,7 @@ const Navbar = () => {
   {/* Anna git problem , or not? */}
  
         </nav>
-        <Outlet />
+        {/* <Outlet /> */}
       </div>
     </>
   );

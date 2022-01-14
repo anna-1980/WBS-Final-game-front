@@ -1,11 +1,13 @@
 const Footer = () => {
   return (
-    <div>
+    <div className='footerMainDiv'>
       <div className="textFooter">
-        <h5>Created by: Anna Zdyb</h5>
-        <h6>You can find me on:</h6>
+        <h5>Created by Anna Zdyb ©</h5>
+        
       </div>
+      
       <div className="socialMedia">
+      <h6>find me on:</h6>
         <a href="https://github.com/" target="_blank" rel="noopener">
           <i className="fa-brands fa-github"></i>
         </a>
@@ -18,7 +20,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/" target="_blank" rel="noopener">
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <h5>To sent me a message use the form on the Contact page</h5>
+        {/* <h5>To sent me a message use the form on the Contact page</h5> */}
       </div>
     </div>
   );
