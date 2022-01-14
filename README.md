@@ -82,6 +82,8 @@ for the iframe :
 
        https://docs.netlify.com/api/get-started/#deploy-with-the-api
 
+       https://virus-invaders.netlify.app/
+       
 
        - display ONE GAME 
        - in ONE GAME DISPLAY use iframe (game should be the only thing there )

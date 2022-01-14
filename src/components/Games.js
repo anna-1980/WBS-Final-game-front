@@ -1,22 +1,28 @@
  import { NavLink } from "react-router-dom";
+ import { Link } from "react-router-dom";
 const Games = ({games}) => {
   return (
     <div className="pageHead">
     
-   
+ 
 
       <div className="displayGames">
         <h1> ⭐ Play a game ⭐</h1>
-
-        <div>{games.map(({date, user, url  }) => {
+        
+        <div>{games.map(({date, user, url, _id }) => {
             return (
+              console.log(games),
               <div className="gamesContainer">
-                 <h2>{date} </h2>
-                 <h3>{user} </h3>
-                 <iframe  
-                     title='game' 
-                     src={url}
-                     id="iframe1"></iframe>
+                  <h2>{date} </h2>
+                  <h3>{user} </h3>
+                <Link to={`/Games/${_id}`} key={_id}>
+                <div className="iframeDiv">
+                   <iframe  
+                       id="allFrames"
+                       title='game' 
+                       src={url}
+                       ></iframe>
+                </div></Link>
               </div>
             );
           })}
