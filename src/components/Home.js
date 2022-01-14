@@ -1,14 +1,19 @@
-import Footer from "./Footer";
-import { Outlet, NavLink } from "react-router-dom";
+// import Footer from "./Footer";
+// import { Outlet, NavLink } from "react-router-dom";
+// import { useEffect, useState } from "react";
+// import axios from 'axios';
 
+ 
 const Home = () => {
+
+
+
+
     return (
       <div >
     
-        <div>
-       Some home component
-        </div>
-       
+
+       <div>Trying to connect to the API</div>
       </div>
     );
   };
