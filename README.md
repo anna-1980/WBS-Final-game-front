@@ -76,3 +76,23 @@ for the iframe :
        title='game' 
        src="https://angry-viruses.netlify.app/"
        id="iframe1"></iframe>
+
+       netlify API for auto deployment
+       https://docs.netlify.com/api/get-started/#zip-file-method
+
+       https://docs.netlify.com/api/get-started/#deploy-with-the-api
+
+
+       - display ONE GAME 
+       - in ONE GAME DISPLAY use iframe (game should be the only thing there )
+       - tumbnails generation 
+       - 
+       - from th einside the game sent data to database
+        - user name 
+        - id 
+        - score
+
+        - get the input to work in phaser
+
+
+
