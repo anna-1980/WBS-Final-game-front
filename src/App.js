@@ -8,7 +8,8 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer'
 import PostGames from './components/PostGame';
-
+import OneGame from './components/OneGame';
+import Landing from './components/Landing'
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
@@ -42,10 +43,11 @@ function App() {
         <div className="navigation">
         <Navbar />
         <Routes>           
-            <Route index element= {<Home />} />
+            <Route index element= {<Landing />} />
             <Route path='about' element= {<About />} />
             <Route path='Home' element= {<Home />} />
             <Route path='Games' element= {<Games games= {games} loading= {loading}/>} />
+            <Route path='Games/:id' element= {<OneGame games= {games} setGames={setGames}  setLoading = {setLoading} loading= {loading}/>} />
             <Route path='postGame' element= {<PostGames />} />
             <Route path='Contact' element= {<Contact />} />
             <Route path = '*'  element = {<NotFound />} />    
