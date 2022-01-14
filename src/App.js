@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Game from './components/Games';
+import Games from './components/Games';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer'
@@ -43,9 +43,9 @@ function App() {
         <Navbar />
         <Routes>           
             <Route index element= {<Home />} />
-            <Route path='about' element= {<About games= {games} loading= {loading}/>} />
+            <Route path='about' element= {<About />} />
             <Route path='Home' element= {<Home />} />
-            <Route path='Games' element= {<Game />} />
+            <Route path='Games' element= {<Games games= {games} loading= {loading}/>} />
             <Route path='postGame' element= {<PostGames />} />
             <Route path='Contact' element= {<Contact />} />
             <Route path = '*'  element = {<NotFound />} />    
