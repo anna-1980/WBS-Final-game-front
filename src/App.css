@@ -32,9 +32,14 @@ h1 {
 }
 
 h2 {
-  display: flex;
-  padding: 1rem 0rem;
-  font-size: 1rem;
+ 
+  
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 p {
@@ -332,17 +337,7 @@ button:active {
 
 
 /* post new game styles */
-.displayGames{
-  padding-top: 0.2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
- 
-}
-.gamesContainer{
-  display: flex;
-}
+
 
 
 /* spinning mandala */
@@ -586,7 +581,7 @@ iframe{
    
   height: 65vh;
   width: 60vh;
-  border:none;
+  /* border:none; */
   overflow: hidden;
   border-width: 5px;
   /* border-color: rgb(166, 214, 245); */
@@ -594,7 +589,6 @@ iframe{
 }
 
 .oneGameFrame{
- 
   height: 65vh;
   width: 58vh;
   border-radius: 10px;
@@ -603,49 +597,55 @@ iframe{
   border-color: rgb(36, 219, 243);
 }
 
+.gamesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  /* justify-content: space-between; */
+  /* background-color: cyan; */
+}
+
+/* .displayGames{
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+ 
+} */
+
+.gameDisplayPadding{
+  padding: 0.6rem;
+  flex: 1;
+  /* align-content: center;
+  height: 100%;
+  align-content: space-around; */
+  /* flex-grow: 2; */
+ 
+}
+
 #allFrames{
   /* /* width: 100%; */
   /* height: 22rem;  */
   /* border-style: none; */
-  /* border: 10px; */
-  /* border-color: crimson; */
   height: 100%;
   width: 100%;
   border-radius: 20px;
-  overflow: hidden;
-  border-width: 5px;
+  /* overflow: hidden; */
+  border-width: 6px;
   border-color: rgb(36, 219, 243);
+  background-color: rgb(36, 219, 243);
   pointer-events: none;
 }
 /* iframe as a tumbnail */
 .iframeDiv{
-  height: 250px;
-  width:210px;
-  background-color: rgb(5, 42, 87);
-  overflow: hidden;
-  /* overflow-y: auto;
-  overflow-x: auto; */
+  height: 195px;
+  width:170px;
+  /* background-color: rgb(5, 42, 87); */
+  /* overflow: hidden; */
+
   resize: both;
 }
-/* .iframeDiv {
-  
-  position: relative;
-  -moz-transform: scale(0.7);
-  -moz-transform-origin: 0 0;
-  -o-transform: scale(0.7);
-  -o-transform-origin: 0 0;
-  -webkit-transform: scale(0.7);
-  -webkit-transform-origin: 0 0;
-} */
-/* .iframeDiv:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
+
+
 /* media query */
 
 @media screen and (max-width: 660px) {
