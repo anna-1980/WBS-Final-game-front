@@ -9,12 +9,12 @@ const Games = ({games}) => {
       <div className="displayGames">
         <h1> ⭐ Play a game ⭐</h1>
         
-        <div>{games.map(({date, user, url, _id }) => {
+        <div className="gamesContainer">{games.map(({title, author, url, _id }) => {
             return (
               console.log(games),
-              <div className="gamesContainer">
-                  <h2>{date} </h2>
-                  <h3>{user} </h3>
+              <div className="gameDisplayPadding">
+                  <h3>{title} </h3>
+                  <h2>Created by: {author} </h2>
                 <Link to={`/Games/${_id}`} key={_id}>
                 <div className="iframeDiv">
                    <iframe  
