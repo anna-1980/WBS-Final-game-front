@@ -757,7 +757,14 @@ iframe{
     padding-bottom: 1rem;
   }
   
-
+  .oneGameFrame{
+    height: 65vh;
+    width: 55vh;
+    border-radius: 0px;
+    overflow: hidden;
+    border-width: 0;
+    /* border-color: rgb(139, 19, 119); */
+  }
 
 
 
