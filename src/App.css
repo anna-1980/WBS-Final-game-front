@@ -764,7 +764,7 @@ iframe{
     border-radius: 0px;
     overflow: hidden;
     border-width: 0;
-  
+    background-color: rgba(30, 68, 73, 0);
     /* border-color: rgb(139, 19, 119); */
   }
 
