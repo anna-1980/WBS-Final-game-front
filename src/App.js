@@ -19,17 +19,16 @@ import axios from 'axios';
 function App() {
 
   const [games, setGames] = useState([]);
-  const[loading, setLoading] = useState(false);
-  
+  const [loading, setLoading] = useState(false);
+ 
   
   useEffect(() => {
-  
     const getGames = async () => {
     try {
       const { data } = await axios.get("https://wbs-final-game-back.herokuapp.com/api/games");
       setLoading(true);
       setGames(data);
-      console.log(data);
+      console.log(`get all games: ${data}`);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong getting the games")
@@ -57,10 +56,10 @@ function App() {
         </Routes>
         </div>
         
-        {/* <div>
+        <div>
           {loading ? ("I am still LOADING...") : 
-          (`not loading anymore`)}
-        </div> */}
+          (``)}
+        </div>
         <Navbar />
         <div >
           <Footer />

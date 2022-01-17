@@ -13,7 +13,7 @@ const PostGames = () => {
         type="text" 
         id="name" 
         name="name" 
-        placeholder="Enter neme of your game" 
+        placeholder="Enter name of your game" 
         required/>
           </div>
           <div >

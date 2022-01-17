@@ -48,8 +48,20 @@ font-size: 1.4rem;
 }
 
 p {
-  font-size: 1.5rem;
-  max-width: 30rem;
+  font-size: 1.2rem;
+  /* max-width: 30rem; */
+}
+
+.paragraph{
+  width: 70%;
+  padding-bottom: 5rem;
+  text-shadow: -8px -8px 20px rgb(15, 44, 80), 8px 8px 20px rgb(15, 44, 80), -10px 8px 20px rgb(15, 44, 80), 8px -10px 20px rgb(15, 44, 80) ;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgba(15, 44, 80, 0.6);
+  text-align: justify;
 }
 
 div {
@@ -358,6 +370,7 @@ button:active {
 .homePage{
   padding-top: 3.6rem;
   padding-right: 2rem;
+  padding-bottom: 6rem;
  
 }
 .mandala {
@@ -668,10 +681,67 @@ iframe{
   resize: both;
 }
 
+/* Scores for each game */
+.leaderBoard{
+  margin:0;
+  padding: 0;
+  /* background-color: darkblue; */
+  /* position: relative; */
+}
+.scoreDisplay{
+  border:5px;
+  border-color: blanchedalmond;
+  border-radius: 20px;
+  /* position: absolute;
+  top: 20vh;
+  left: 20vw; */
+  margin-top: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: cornsilk;
+  /* position: absolute; */
+  /* justify-items: flex-end; */
+  /* align-content: flex-end; */
+  
+
+}
+.tableTitle{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(255, 174, 0);
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  justify-items: center;
+  background-color: rgb(50, 46, 53);
+  /* justify-content: space-between;
+  justify-self: flex-end; */
+}
+.scores{
+  color: rgb(222, 97, 238);
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(27, 26, 26);
+  align-items: baseline;
+  text-align: justify;
+}
 
 /* media query */
 
 @media screen and (max-width: 660px) {
+
+  p {
+    font-size: 1rem;
+    /* max-width: 30rem; */
+  }
+
+  .paragraph{
+    max-width: 100vh;
+  }
+
   h1{
     font-size: 1.5rem;
   }
@@ -706,6 +776,19 @@ iframe{
     padding: 0.3rem;
     font-size: 1.5rem;
     background-color: rgb(16, 65, 124, 0.5);
+  }
+
+  .pageHead{
+    padding: 0;
+    padding-top: 2rem;
+    height: 75%;
+    padding-bottom: 5rem;
+  }
+
+  .leaderBoard{
+    padding-bottom: 4rem;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   .NavBarContainer {
@@ -817,5 +900,9 @@ iframe{
     padding-top: 3rem;
     padding-right: 0rem;
   }
+
+}
+
+@media screen and (max-width: 1400px){
 
 }
