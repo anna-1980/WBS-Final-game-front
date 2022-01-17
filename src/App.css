@@ -42,6 +42,11 @@ h3 {
   font-size: 1.3rem;
 }
 
+h4 {
+
+font-size: 1.4rem;
+}
+
 p {
   font-size: 1.5rem;
   max-width: 30rem;
@@ -55,6 +60,15 @@ div > h1 {
   color: rgb(255, 252, 170);
   text-align: center;
   text-shadow: -5px -5px 15px rgb(77, 77, 77), 5px 5px 15px rgb(55, 55, 55);
+}
+
+.textBackground{
+  text-shadow: -8px -8px 10px rgb(15, 44, 80), 8px 8px 10px rgb(15, 44, 80), -10px 8px 10px rgb(15, 44, 80), 8px -10px 10px rgb(15, 44, 80) ;
+  padding-top: 0.5rem;
+  padding-bottom: 0.2rem;
+  background-color: rgba(15, 44, 80, 0.6);
+  text-align: center;
+  max-width: fit-content;
 }
 
 /* Styling Navigation Buttons START */
@@ -246,7 +260,7 @@ display:flex;
 
 .textFooter {
  
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   padding: 1rem 0rem 0.1rem 0rem;
   margin: 0;
 }
@@ -342,8 +356,9 @@ button:active {
 
 /* spinning mandala */
 .homePage{
-  padding-top: 3rem;
+  padding-top: 3.6rem;
   padding-right: 2rem;
+ 
 }
 .mandala {
   align-items: center;
@@ -358,6 +373,7 @@ button:active {
   background-repeat: no-repeat;
   animation: spin 20s linear infinite;
   z-index: 10;
+  
 }
 @keyframes spin {
   100% {

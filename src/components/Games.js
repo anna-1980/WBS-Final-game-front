@@ -7,7 +7,7 @@ const Games = ({games}) => {
  
 
       <div className="displayGames">
-        <h1> ⭐ Play a game ⭐</h1>
+        <h1 textBackground> ⭐ Play a game ⭐</h1>
         
         <div className="gamesContainer">{games.map(({title, author, url, _id }) => {
             return (

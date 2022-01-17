@@ -10,7 +10,7 @@ const Video = () => {
     
      <div className="videoCover"></div>
      <div className="videoCover2"></div>
-     <video src={video} width="500" height="500" className="video" controls></video>
+     <video src={video}  className="video" controls></video>
 
  </div>
   );
