@@ -7,11 +7,15 @@ const Home = () => {
 
     return (
       <div className="homePage">
+        
        <div className="mandala"></div>
-
-       <div>Trying to connect to the API</div>
-
+       <div className="textBackground">
+       <h4>Welcome stranger</h4>
+       </div>
        <Video />
+       
+   
+
       </div>
       
        
