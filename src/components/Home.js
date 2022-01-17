@@ -1,4 +1,4 @@
- 
+ import Video from "./Video";
  
 const Home = () => {
 
@@ -6,11 +6,15 @@ const Home = () => {
 
 
     return (
-      <div className="pageHead">
+      <div className="homePage">
        <div className="mandala"></div>
 
        <div>Trying to connect to the API</div>
+
+       <Video />
       </div>
+      
+       
     );
   };
   

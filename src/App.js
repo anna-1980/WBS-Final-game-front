@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import './animations.css';
 import About from './components/About'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -10,6 +11,8 @@ import Footer from './components/Footer'
 import PostGames from './components/PostGame';
 import OneGame from './components/OneGame';
 import Landing from './components/Landing'
+ 
+
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
@@ -41,9 +44,9 @@ function App() {
     <div className="App">
       <div className="landingHeaderDiv"></div>
         <div className="navigation">
-        <Navbar />
+      
         <Routes>           
-            <Route index element= {<Landing />} />
+            <Route index element= {<Home />} />
             <Route path='about' element= {<About />} />
             <Route path='Home' element= {<Home />} />
             <Route path='Games' element= {<Games games= {games} loading= {loading}/>} />
@@ -54,11 +57,11 @@ function App() {
         </Routes>
         </div>
         
-        <div>
+        {/* <div>
           {loading ? ("I am still LOADING...") : 
           (`not loading anymore`)}
-        </div>
-
+        </div> */}
+        <Navbar />
         <div >
           <Footer />
         </div>

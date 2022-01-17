@@ -8,7 +8,7 @@ body {
   /* background-image: linear-gradient(to right, #d2cd54, #6b8d1d, #4a7433); */
   /* background-image: linear-gradient(to top, black, #25372a); */
 
-  background-image: url("./pictures/HalpDrop02-DarkBlue.png");
+  background-image: url("./assets/HalpDrop02-DarkBlue.png");
   /* background-color: chartreuse; */
   background-size: 20em;
   background-repeat: repeat;
@@ -101,8 +101,8 @@ button h2 {
   font-weight: bold;
   font-size: 1.1rem;
   border: 2px solid rgb(66, 124, 196);
-  padding: 5px 15px 10px;
-  margin: 0 1rem;
+  padding: 8px 15px 10px;
+  margin: 0 1.6rem;
   display: inline-block;
   border-radius: 0% 50% 0% 50%;
   text-align: end;
@@ -114,7 +114,7 @@ button h2 {
   color: rgb(13, 50, 95);
   background-color: rgb(107, 162, 228);
   cursor: -webkit-grabbing;
-  box-shadow: -5px -5px 10px rgb(160, 228, 249), 5px 5px 20px rgb(245, 247, 211),
+  box-shadow: -5px -5px 8px rgb(160, 228, 249), 5px 5px 15px rgb(245, 247, 211),
     inset -2px -3px 4px rgba(13, 58, 15, 0.5),
     inset 3px 4px 5px rgba(172, 189, 235, 0.8);
 }
@@ -132,13 +132,13 @@ button h2 {
   flex-direction: column;
   padding: 1.8rem 0.1rem 4rem 0.1rem;
   margin: 0;
-  background-color: rgb(16, 65, 124);
+  background-color: rgb(15, 44, 80);
   position: fixed;
   margin-bottom: 1rem;
   width: 100%;
   height: 5rem;
   font-size: 1.2rem;
-  z-index: 1;
+  z-index: 0;
   /*   z-index: 10;  */
 }
 
@@ -237,8 +237,8 @@ label {
   background-size: 100%;
   padding: 1.2rem 0.5rem 1rem 0.5rem;
   margin-bottom: 0;
-  background-color: rgb(16, 65, 124);
-  z-index: 1;
+  background-color: rgb(15, 44, 80);
+  z-index: 2;
 }
 .footerMainDiv {
 display:flex;
@@ -290,7 +290,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 5rem;
    
 }
@@ -341,17 +341,23 @@ button:active {
 
 
 /* spinning mandala */
+.homePage{
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
 .mandala {
   align-items: center;
   justify-items: center;
+  position: relative;
+  /* margin-left: 41vw; */
   /* position: absolute; */
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 8rem;
   background-size: 100%;
-  background-image: url("./pictures/organelleMandala-small.png");
+  background-image: url("./assets/organelleMandala-small.png");
   background-repeat: no-repeat;
   animation: spin 20s linear infinite;
-  z-index: 1;
+  z-index: 10;
 }
 @keyframes spin {
   100% {
@@ -687,18 +693,29 @@ iframe{
   }
 
   .NavBarContainer {
-    padding: 1.4rem 0.1rem 1rem 0.1rem;
+    padding: 1.2rem 0.1rem 1rem 0.1rem;
     margin: 0;
     position: fixed;
     width: 100%;
+    height: 4.5rem;
+    
+  }
+  .homePage{
+    padding-top: 3rem;
+    padding-right: 0.6rem;
+  }
+
+  .mandala {
+    height: 5rem;
+    width: 5em;
+    margin-right: 43vw;
   }
 
   .link {
     
     background-color: rgb(124, 16, 115);
-    
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border: 2px solid rgb(66, 124, 196);
     padding: 5px 10px 7px;
     margin: 0 0.5rem;
@@ -717,7 +734,7 @@ iframe{
     display: flex;
     flex-direction: row;
     padding: 1rem 0.3rem 0.7rem 0.3rem;
-    background-color: rgb(16, 65, 124);
+    
 
   }
  
@@ -742,9 +759,10 @@ iframe{
   .socialMedia {
     width: 100%;
     /* padding: 0; */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-left: 0.3rem;
-    padding-top: 0.5;
+    padding-top: 0;
+    padding-bottom: 1.3rem;
     margin: 0;
   }
   a {
@@ -756,8 +774,14 @@ iframe{
  
   h5{
     padding-bottom: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0rem;
+    padding-top: 0.7rem;
   }
-  
+  h6 {
+    color:rgba(27, 27, 201, 0);
+    text-shadow: rgba(58, 95, 95, 0);
+  }
   .oneGameFrame{
     /* height: auto; */
     width: 96vw;
@@ -769,5 +793,13 @@ iframe{
   }
 
 
+
+}
+
+@media screen and (max-width: 360px) {
+  .homePage{
+    padding-top: 3rem;
+    padding-right: 0rem;
+  }
 
 }

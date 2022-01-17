@@ -4,19 +4,19 @@ const Navbar = () => {
   return (
     <>
       <div className="NavBarContainer">
-        <nav>
+        <nav >
 
 
-          <NavLink className="link" to="/">
+          <NavLink className="link home" to="/">
             Home
           </NavLink>
-          <NavLink className="link" to="/Games">
+          <NavLink className="link games" to="/Games">
             Games
           </NavLink>
-          <NavLink className="link" to="/About">
+          <NavLink className="link about" to="/About">
             About
           </NavLink>
-          <NavLink className="link" to="/Contact">
+          <NavLink className="link contact" to="/Contact">
             Contact
           </NavLink>
   {/* Anna git problem , or not? */}
