@@ -19,7 +19,7 @@
     position: absolute;
     z-index: 3;
     animation: opening 1s  ease-in forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     transform-origin: top left;
     
 }
@@ -37,7 +37,7 @@
      right: 0;
      transform-origin: top right;
      animation: opening2 1s  ease-in forwards;
-     animation-delay: 2s;
+     animation-delay: 1s;
  }
  
 
