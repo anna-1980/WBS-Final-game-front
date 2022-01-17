@@ -1,6 +1,4 @@
-
-
-import video from "../video/VirusInvaders.mp4";
+import video from "../assets/Cell-bubble.mp4";
 
 const Video = () => {
   return (
@@ -9,9 +7,11 @@ const Video = () => {
 
     <img src={picture} alt="picture" />
     </div> */}
-   <div className="video">
-   <video src={video} width="500" height="500" controls></video>
-   </div>
+    
+     <div className="videoCover"></div>
+     <div className="videoCover2"></div>
+     <video src={video} width="500" height="500" className="video" controls></video>
+
  </div>
   );
 };
