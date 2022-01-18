@@ -96,5 +96,4 @@ for the iframe :
 
         - get the input to work in phaser
 
-
-
+18Jn2022 - after a bigg hasstle I finally have the specific icon and a thimbnail for my app :) 
