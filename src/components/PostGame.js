@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 // import { useForm } from 'react-hook-form';
 import axios from "axios";
 
 const PostGames = () => {
   const [loading, setLoading] = useState(false);
+  const [newgame, setNewgame] = useState(null);
+  
 
   const uploadGame = async (e) => {
     e.preventDefault();
@@ -19,15 +22,17 @@ const PostGames = () => {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "https://wbs-final-game-back.herokuapp.com/api/games",
+        "http://localhost:5000/api/games",
         formData
       );
+      setNewgame(data);
       console.log(data);
       setLoading(false);
     } catch (error) {
       console.log(error);
       setLoading(false);
     }
+    console.log(newgame.title.value);
   };
 
   return (
@@ -73,9 +78,26 @@ const PostGames = () => {
           </button>
         </form>
       </div>
-      <div></div>
+      <div>
+          {!loading && newgame ? (
+            <h4>
+              <Link to={`/Games/`} > Go find your game
+               </Link>
+               </h4>    
+          ) : (
+            <div className="bouncer">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          
+          )}
+        </div>
     </div>
   );
 };
 
 export default PostGames;
+

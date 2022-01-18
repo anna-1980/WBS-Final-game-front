@@ -243,3 +243,29 @@
     }
   }
   
+  /* maybeDNA */
+
+.vertical {
+  width: 100%;
+  display: flex;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* transform-origin: 50% 50%; */
+  position: absolute;
+  top:20%;
+  z-index: -1;
+ 
+  
+}
+
+.vertical div{
+margin-top: 5px;
+height: 61px;
+width: 5px;
+background-color: rgb(224, 201, 109);
+align-self: center;
+/* flex: 2; */
+/* margin-left: 5vw;
+border-color: crimson; */
+
+  }
