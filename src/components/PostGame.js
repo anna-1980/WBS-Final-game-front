@@ -1,5 +1,12 @@
+import { useEffect, useState } from "react";
+import axios from 'axios';
 
 const PostGames = () => {
+
+  const [file, setFile] = useState([]);
+
+
+  ~
   return (
     <div className="pageHead">
       <h1> ⭐ Post a new game ⭐</h1>
@@ -19,9 +26,9 @@ const PostGames = () => {
           <div >
             <label htmlFor="email" >zip file to uploead</label>  
             <input 
-            type="email" 
-            name="email" 
-            id="email" 
+            className="upload"
+            type="file" 
+            name='game_zip' 
             placeholder="choose file ZIP file to upload" 
             required />
           </div>
