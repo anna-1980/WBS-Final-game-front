@@ -62,7 +62,19 @@ p {
   padding-right: 1rem;
   background-color: rgba(15, 44, 80, 0.6);
   text-align: justify;
+
 }
+
+.checkingBorder{
+  background-color: chartreuse;
+  width: 300px;
+  height: 400px;
+  padding-bottom: 7rem;
+  border-style: solid;
+  border-width: 10px;
+  border-image: url(./assets/DNA01.png) 40 round;
+}
+
 
 div {
   text-align: center;
@@ -247,6 +259,7 @@ label {
 }
 
 .buttonDiv {
+  
   align-content: flex-start;
   padding-left: 16rem;
 }
