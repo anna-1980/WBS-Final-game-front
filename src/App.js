@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import './animations.css';
+import './mediaQuery.css';
 import About from './components/About'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -10,7 +11,7 @@ import NotFound from './components/NotFound';
 import Footer from './components/Footer'
 import PostGames from './components/PostGame';
 import OneGame from './components/OneGame';
-import Landing from './components/Landing'
+ 
  
 
 import { useEffect, useState } from "react";
