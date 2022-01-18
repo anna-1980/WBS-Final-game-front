@@ -134,6 +134,7 @@ button h2 {
   text-align: end;
   box-shadow: inset -2px -3px 4px rgba(18, 18, 18, 0.5),
     inset 3px 4px 5px rgba(95, 140, 194, 0.8);
+    
 }
 
 .link:hover {
@@ -149,6 +150,20 @@ button h2 {
   color: rgb(13, 50, 95);
   background-color: rgb(172, 206, 248);
   cursor: -webkit-pointer;
+}
+
+.a:after{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 50%;
+  height: 35%;
+  background: linear-gradient(
+    -90deg,
+    rgba(239, 244, 196, 0.7),
+    rgba(241, 235, 235, 0)
+  );
 }
 
 .NavBarContainer {

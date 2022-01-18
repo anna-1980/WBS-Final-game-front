@@ -173,9 +173,13 @@
     /* -webkit-box-shadow: 
     2px 2px 2px 2px #FF8080,
     -2px 2px 2px 2px #FFE488;  */
-   box-shadow: 
+   /* box-shadow: 
    1px 1px 5px 3px #e588f4,
+  -1px -1px 5px 3px #00a6ff; */
+  box-shadow: inset -2px -3px 4px rgba(18, 18, 18, 0.5),
+  inset 3px 4px 5px rgba(95, 140, 194, 0.8), 1px 1px 5px 3px #e588f4,
   -1px -1px 5px 3px #00a6ff;
+
     animation: borderAnimation 5s linear infinite alternate;
   }
   

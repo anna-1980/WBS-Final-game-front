@@ -20,7 +20,7 @@ const About = () => {
              </p>
              <h3>- 👻 You should make a GAME and Design it yourself, and it should be about SCIENCE...</h3>
              <br></br>
-             <p>And there you go, here is my little space for all the games which contain a little bit of science in there</p>
+             <p>And there you go, here is my space for all the games which contain a little bit of science</p>
              <h3>Did I mentione I love to teach science?</h3>
              <p>Explain things look for information. But learning science, also for me was not always easy.I am sure many of you can relate</p>
              <h3>Therefore I decided to use all my skills and bring about his platform, where you can enjoy playing mini games and learn some scientific facts while doing so.</h3>
