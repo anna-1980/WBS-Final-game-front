@@ -201,24 +201,13 @@
   }
   
   @media screen and (min-width: 790px){
-    .link {
-      
-        background-color: rgb(230, 230, 85);
-        font-weight: bold;
-        font-size: 1rem;
-        border: 2px solid rgb(66, 124, 196);
-        padding: 5px 10px 7px;
-        margin: 0 0.5rem;
-        border-radius: 0% 50% 0% 50%;
-        text-align: end;
-     
-      }
+
 
   /* video  */
 .displayContainer {
     display: flex;
-    height: 75vw;
-    width: 75vw;
+    height: 50vh;
+    width: 50vh;
     position: relative;
     border-radius: 3%;
     padding: 2rem, 1rem;
