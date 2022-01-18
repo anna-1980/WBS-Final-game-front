@@ -17,9 +17,9 @@ const OneGame = () => {
     try {
       const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/games/${id}`);
       setLoading(true);
-      // console.log(data);
+      console.log(data);
       setGame(data);
-      console.log(`from oneGame ${{game}}`);
+      console.log(`from oneGame ${game}`);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong with your game")
@@ -27,14 +27,19 @@ const OneGame = () => {
   };
   getGame();
   }, []);
-     
+         
+    // console.log(game.title);
+    let findGame = game.title
+console.log(findGame);
+
   useEffect(() => {
     const getScores = async () => {
     try {
-      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/scores/Virusinvaders`);
+      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/scores/${findGame}`);
       setLoading(true);
       setScores(data);
-      // console.log(data);
+      console.log(data);
+      console.log(findGame);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong getting the games")
@@ -61,12 +66,13 @@ const OneGame = () => {
                               <div>SCORE</div>
                               <div>PLAYER NAME</div>
                           </div>
-                        {scores.map(({game, playerName, score, _id }) => {
+                        {scores.map(({game, playerName, score, _id, }) => {
                         return (
                           // console.log(game),
                           // console.log(playerName),
                           // console.log(score),
                           <div  key={_id} className="scores">
+                              <div> {game} </div>
                               <div> {score} </div>
                               <div>{playerName} </div>
                           </div>
