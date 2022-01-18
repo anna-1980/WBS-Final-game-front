@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "organelleMandala.png",
+      "src": "Mandala192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "organelleMandala.png",
+      "src": "Mandala512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#427CC4",
-  "background_color": "#0F2C50"
+  "theme_color": "#15458A",
+  "background_color": "#ffffff"
 }
