@@ -126,9 +126,47 @@ button:hover {
 
 button:active {
   color: rgb(11, 74, 11);
-  background-color: rgb(242, 255, 160);
+  background-color: rgb(160, 255, 250);
 }
 
+.uploadButton{
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+
+.uploadButton:hover{
+  color: rgb(153, 155, 160);
+  box-shadow: -5px -5px 20px rgb(245, 247, 211), 5px 5px 20px rgb(245, 247, 211);
+  background-color: rgb(245, 204, 42);
+  cursor: grabbing;
+}
+.uploadButton::after{
+  background-color: chartreuse;
+}
+
+.gameName{
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+
+}
+
+.authorName{
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+
+.uploadFile{
+  width: 100%;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+
+.form2{
+  font-size: 1.2rem;
+  display: flex;
+  font-size: 1.5rem;
+}
 button h2 {
   padding: 0rem 0.5rem;
   font-size: 2rem;

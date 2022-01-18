@@ -251,8 +251,50 @@ label {
   }
   
   /* contact form  END */
-      
   
+  .gameName{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.2rem;
+    text-shadow: -1px -1px 10px rgb(24, 24, 24);
+  
+  }
+  
+  .authorName{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-shadow: -1px -1px 10px rgb(24, 24, 24);
+  }
+  
+  .uploadFile{
+    display: flex;
+   align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.2rem;
+    text-shadow: -1px -1px 10px rgb(24, 24, 24);
+  }
+  
+  .form2{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+  }
+  
+  .label2{
+    padding: 0;
+  }
+  .uploadButton{
+    margin-left:7rem;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    padding: 5px;
+  }
   }
   
    
@@ -318,6 +360,51 @@ label {
 
 /* contact form  END */
       
+.gameName{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+
+}
+
+.authorName{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+
+.uploadFile{
+  display: flex;
+ align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.2rem;
+  text-shadow: -1px -1px 10px rgb(24, 24, 24);
+}
+
+.form2{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding-right: 3rem;
+}
+
+.label2{
+  padding: 0;
+}
+.uploadButton{
+  margin-left:7rem;
+  margin-right: 2rem;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+
+
   }
   
   @media screen and (min-width: 790px){

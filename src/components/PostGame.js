@@ -19,7 +19,7 @@ const PostGames = () => {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "http://localhost:5000/api/games",
+        "https://wbs-final-game-back.herokuapp.com/api/games",
         formData
       );
       console.log(data);
@@ -34,11 +34,11 @@ const PostGames = () => {
     <div className="pageHead">
       <h1> ⭐ Post a new game ⭐</h1>
 
-      <div className="form">
+      <div className="form2">
         <form onSubmit={uploadGame}>
           <input type="hidden" name="form-name" value="contact" />
-          <div>
-            <label htmlFor="name">Name of your game</label>
+          <div className="gameName">
+            <label htmlFor="name" className="label2">Name of your game</label>
             <input
               type="text"
               id="name"
@@ -47,8 +47,8 @@ const PostGames = () => {
               required
             />
           </div>
-          <div>
-            <label htmlFor="author">Author</label>
+          <div className="authorName">
+            <label htmlFor="author" className="label2">Author</label>
             <input
               type="text"
               id="author"
@@ -57,8 +57,8 @@ const PostGames = () => {
               required
             />
           </div>
-          <div>
-            <label htmlFor="email">zip file to uploead</label>
+          <div className="uploadFile">
+            <label htmlFor="email" className="label2">upload file</label>
             <input
               className="upload"
               type="file"
@@ -67,9 +67,9 @@ const PostGames = () => {
               required
             />
           </div>
-          <button className="postButton" type="submit">
+          <button className="uploadButton" type="submit">
             {" "}
-            POST{" "}
+            UPLOAD TO SCIENCE ARCADE{" "}
           </button>
         </form>
       </div>
