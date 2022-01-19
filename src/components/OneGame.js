@@ -26,11 +26,14 @@ const OneGame = () => {
     }
   };
   getGame();
-  }, []);
+  }, []); 
          
     // console.log(game.title);
-    let findGame = game.title
-console.log(findGame);
+    const findGame = game.title
+    console.log(game.title);
+
+    const oneGameTitle = `Virusinvaders`;
+    console.log(oneGameTitle);
 
   useEffect(() => {
     const getScores = async () => {
@@ -39,7 +42,7 @@ console.log(findGame);
       setLoading(true);
       setScores(data);
       console.log(data);
-      console.log(findGame);
+      console.log(`Name of one game ${scores}`);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong getting the games")
@@ -94,3 +97,4 @@ console.log(findGame);
   
   export default OneGame;
 //   ${id}
+//${findGame}
