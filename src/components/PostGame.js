@@ -22,7 +22,7 @@ const PostGames = () => {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "http://localhost:5000/api/games",
+        "https://wbs-final-game-back.herokuapp.com/api/games",
         formData
       );
       setNewgame(data);
@@ -32,7 +32,7 @@ const PostGames = () => {
       console.log(error);
       setLoading(false);
     }
-    console.log(newgame.title.value);
+    // console.log(newgame.title.value);
   };
 
   return (
@@ -81,19 +81,36 @@ const PostGames = () => {
       <div>
           {!loading && newgame ? (
             <h4>
-              <Link to={`/Games/`} > Go find your game
-               </Link>
-               </h4>    
-          ) : (
-            <div className="bouncer">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          
+            <Link to={`/Games/`} >after upload Go findif your game
+            </Link>
+            </h4> 
+            ) : (
+              
+              <div></div>
           )}
+
+              {loading && !newgame ? (
+
+              
+             
+          
+                <div className="bouncer">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div> 
+                
+              
+
+              ) : (
+
+              
+                <div></div>
+                
+                
+              )}
         </div>
     </div>
   );
@@ -101,3 +118,4 @@ const PostGames = () => {
 
 export default PostGames;
 
+// "http://localhost:5000/api/games"
