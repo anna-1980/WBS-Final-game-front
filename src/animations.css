@@ -17,7 +17,7 @@
     background-color:rgba(15, 44, 80, 1);
     background-image: url(./assets/mandala-half-1.png);
     background-size: cover;
-    width: 50%;
+    width: 50.5%;
     height: 100%;
     position: absolute;
     z-index: 3;
@@ -34,7 +34,7 @@
      background-color: rgba(15, 44, 80, 1);
      background-image: url(./assets/mandala-half-2.png);
      background-size: cover;
-      width: 50%;
+      width: 50.5%;
       height: 100%;
       position: absolute;
       z-index: 2;

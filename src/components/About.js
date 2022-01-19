@@ -1,8 +1,8 @@
  
 const About = () => {
     return (
-      <div className="pageHead">
-    
+      <div className="homePage">
+        <div className="mandala"></div>
         <div className="textBackground">
           <h1>How it all started</h1>
         </div>
