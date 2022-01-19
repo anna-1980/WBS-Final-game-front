@@ -6,7 +6,6 @@ import axios from "axios";
 const PostGames = () => {
   const [loading, setLoading] = useState(false);
   const [newgame, setNewgame] = useState(null);
-  
 
   const uploadGame = async (e) => {
     e.preventDefault();
@@ -22,10 +21,9 @@ const PostGames = () => {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "https://wbs-final-game-back.herokuapp.com/api/games",
-        formData, 
-        {maxContentLength: Infinity,
-          maxBodyLength: Infinity}
+        "http://localhost:5000/api/games",
+        formData,
+        { maxContentLength: Infinity, maxBodyLength: Infinity }
       );
       setNewgame(data);
       console.log(data);
@@ -45,7 +43,9 @@ const PostGames = () => {
         <form onSubmit={uploadGame}>
           <input type="hidden" name="form-name" value="contact" />
           <div className="gameName">
-            <label htmlFor="name" className="label2">Name of your game</label>
+            <label htmlFor="name" className="label2">
+              Name of your game
+            </label>
             <input
               type="text"
               id="name"
@@ -55,7 +55,9 @@ const PostGames = () => {
             />
           </div>
           <div className="authorName">
-            <label htmlFor="author" className="label2">Author</label>
+            <label htmlFor="author" className="label2">
+              Author
+            </label>
             <input
               type="text"
               id="author"
@@ -65,7 +67,9 @@ const PostGames = () => {
             />
           </div>
           <div className="uploadFile">
-            <label htmlFor="email" className="label2">upload file</label>
+            <label htmlFor="email" className="label2">
+              upload file
+            </label>
             <input
               className="upload"
               type="file"
@@ -81,39 +85,28 @@ const PostGames = () => {
         </form>
       </div>
       <div>
-          {!loading && newgame ? (
-            <h4>
-            <Link to={`/Games/`} >Upload complete go see your game is there
+        {!loading && newgame ? (
+          <h4>
+            <Link to={`/Games/`}>
+              Upload complete go see your game is there
             </Link>
-            </h4> 
-            ) : (
-              
-              <div></div>
-          )}
+          </h4>
+        ) : (
+          <div></div>
+        )}
 
-              {loading && !newgame ? (
-
-              
-             
-          
-                <div className="bouncer">
+        {loading && !newgame ? (
+          <div className="bouncer">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
             <div></div>
-            </div> 
-                
-              
-
-              ) : (
-
-              
-                <div></div>
-                
-                
-              )}
-        </div>
+          </div>
+        ) : (
+          <div></div>
+        )}
+      </div>
     </div>
   );
 };
