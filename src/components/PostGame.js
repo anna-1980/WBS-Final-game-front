@@ -21,7 +21,7 @@ const PostGames = () => {
     try {
       setLoading(true);
       const { data } = await axios.post(
-        "http://localhost:5000/api/games",
+        "https://wbs-final-game-back.herokuapp.com/api/games",
         formData,
         { maxContentLength: Infinity, maxBodyLength: Infinity }
       );
