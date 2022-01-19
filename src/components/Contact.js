@@ -1,5 +1,5 @@
 import Form from "./Form";
-import Footer from "./Footer";
+
 
 const Contact = () => {
   return (
@@ -11,6 +11,14 @@ const Contact = () => {
       <Form />
       <div className="mainBouncerDiv">
       <div className="bouncer">
+        <div></div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
         <div> </div>
         <div> </div>
         <div> </div>
@@ -38,9 +46,37 @@ const Contact = () => {
         <div> </div>
         <div> </div>
         <div> </div>
-         
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
       </div>
-
+      <div className="vertical">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> 
 
       </div>
     </div>
