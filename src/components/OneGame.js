@@ -15,41 +15,32 @@ const OneGame = () => {
    useEffect(() => { 
     const getGame = async () => {
     try {
-      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/games/${id}`);
       setLoading(true);
+      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/games/${id}`);
       console.log(data);
       setGame(data);
-      console.log(`from oneGame ${game}`);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong with your game")
     }
   };
   getGame();
-  }, []); 
-         
-    // console.log(game.title);
-    const findGame = game.title
-    console.log(game.title);
-
-    const oneGameTitle = `Virusinvaders`;
-    console.log(oneGameTitle);
+  }, [id]); 
 
   useEffect(() => {
     const getScores = async () => {
     try {
-      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/scores/${findGame}`);
       setLoading(true);
+      const { data } = await axios.get(`https://wbs-final-game-back.herokuapp.com/api/scores/${game.title}`);
       setScores(data);
       console.log(data);
-      console.log(`Name of one game ${scores}`);
       setLoading(false);
     } catch (error) {
       return alert ("Sorry something went wrong getting the games")
     }
   };
   getScores();
-  }, []);
+  }, [game]);
 
 
     return (    <div>
