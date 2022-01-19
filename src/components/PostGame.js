@@ -81,7 +81,7 @@ const PostGames = () => {
       <div>
           {!loading && newgame ? (
             <h4>
-            <Link to={`/Games/`} >after upload Go findif your game
+            <Link to={`/Games/`} >Upload complete go see your game is there
             </Link>
             </h4> 
             ) : (

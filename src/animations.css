@@ -15,7 +15,9 @@
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
     background-color:rgba(15, 44, 80, 1);
-    width: 55%;
+    background-image: url(./assets/mandala-half-1.png);
+    background-size: cover;
+    width: 50.5%;
     height: 100%;
     position: absolute;
     z-index: 3;
@@ -30,7 +32,9 @@
     border-top-right-radius: 3%;
     border-bottom-right-radius: 3%;
      background-color: rgba(15, 44, 80, 1);
-      width: 55%;
+     background-image: url(./assets/mandala-half-2.png);
+     background-size: cover;
+      width: 50.5%;
       height: 100%;
       position: absolute;
       z-index: 2;

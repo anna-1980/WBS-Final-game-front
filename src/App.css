@@ -40,16 +40,20 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 h4 {
-
-font-size: 1.4rem;
+  line-height: 1.3;
+font-size: 1.5rem;
 }
 
 p {
   font-size: 1.2rem;
   /* max-width: 30rem; */
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.3;
 }
 
 .upload{
@@ -62,12 +66,13 @@ p {
   width: 70%;
   padding-bottom: 5rem;
   text-shadow: -8px -8px 20px rgb(15, 44, 80), 8px 8px 20px rgb(15, 44, 80), -10px 8px 20px rgb(15, 44, 80), 8px -10px 20px rgb(15, 44, 80) ;
-  padding-top: 0.5rem;
-  padding-bottom: 0.2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: rgba(15, 44, 80, 0.6);
   text-align: justify;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -99,6 +104,18 @@ div > h1 {
   background-color: rgba(15, 44, 80, 0.6);
   text-align: center;
   max-width: fit-content;
+  display: flex;
+}
+
+.textBackground > h4{
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.textBackground > i{
+  padding: 0;
 }
 
 /* Styling Navigation Buttons START */
@@ -143,6 +160,21 @@ button:active {
 }
 .uploadButton::after{
   background-color: chartreuse;
+}
+
+
+/* info panels css */
+
+.infoPanels{
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph > h3{
+  text-align: left;
 }
 
 .gameName{
@@ -434,9 +466,12 @@ button:active {
 }
 
 
-/* post new game styles */
+ 
 
-
+.spacer{
+  width: 100%;
+  height: 4rem;
+}
 
 /* spinning mandala */
 .homePage{
@@ -744,7 +779,7 @@ button:active {
 
 .mainBouncerDiv{
   /* background-color: rgba(189, 73, 31, 0.5); */
-  width: 100%;
+  width: 80%;
   height: 100%;
   position: relative;
   
