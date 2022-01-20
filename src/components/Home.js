@@ -11,7 +11,7 @@ const Home = () => {
         
           <div className="spacer"></div>
           <div className="textBackground">
-          <h4>  Welcome to the Science Arcade</h4><i class="fas fa-flask"></i>  
+          <h4>  Welcome to the Science Arcade</h4><i className="fas fa-flask"></i>  
         </div>
         <Video />
         <div className="infoPanels">
