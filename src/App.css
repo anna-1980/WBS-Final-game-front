@@ -408,7 +408,7 @@ i {
 }
 
 i:hover {
-  box-shadow: -2px -2px 10px rgb(247, 211, 211), 2px 2px 10px rgb(245, 247, 211);
+  text-shadow: -2px -2px 10px rgb(247, 211, 211), 2px 2px 10px rgb(245, 247, 211);
   
 }
 
