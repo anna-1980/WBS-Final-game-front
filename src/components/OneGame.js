@@ -66,7 +66,7 @@ const OneGame = () => {
                           // console.log(playerName),
                           // console.log(score),
                           <div  key={_id} className="scores">
-                              <div> {game} </div>
+                              {/* <div> {game} </div> */}
                               <div> {score} </div>
                               <div>{playerName} </div>
                           </div>
