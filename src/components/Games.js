@@ -15,7 +15,7 @@ const Games = ({games}) => {
               console.log(games),
               <div className="gameDisplayPadding">
                   <h3>{title} </h3>
-                  <h2>Created by: {author} </h2>
+                  <h2>Author: {author} </h2>
                 <Link to={`/Games/${_id}`} key={_id}>
                 <div className="iframeDiv">
                    <iframe  
