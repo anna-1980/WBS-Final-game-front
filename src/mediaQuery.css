@@ -517,8 +517,16 @@ label {
       }
 }
 
+.scoreDisplay{
+  height: 50%;
+  overflow: scroll;
+  width: 55vh;
+}
+
 .mainBouncerDiv{
   width: 50%;
   max-height: 50%;
 }
+ 
+
   }

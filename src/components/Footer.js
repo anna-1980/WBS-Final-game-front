@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className='footerMainDiv'>
       <div className="textFooter">
-        <h5>Created by Anna Zdyb ©</h5>
+        <h5>Copyright: Anna Zdyb </h5>
         
       </div>
       

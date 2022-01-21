@@ -1,6 +1,9 @@
  import { NavLink } from "react-router-dom";
  import { Link } from "react-router-dom";
 const Games = ({games}) => {
+   
+  
+
   return (
     <div className="pageHead">
     
