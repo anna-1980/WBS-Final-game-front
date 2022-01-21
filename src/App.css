@@ -883,8 +883,11 @@ iframe{
   /* position: absolute;
   top: 20vh;
   left: 20vw; */
+  height: 50%;
+  overflow: scroll;
   margin-top: 1rem;
-  width: 50%;
+  margin-bottom: 3rem;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   background-color: cornsilk;
