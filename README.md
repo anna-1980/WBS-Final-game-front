@@ -1,16 +1,22 @@
 Hello :) 
 
 This is a repository containing front end part if a final project for graduating my Full Stack Web-Dev Boot Camp. 
-It is a React app 
+It is an beginning of a gaming portal project which I called: 
+
+Science Arcade
+
+The main idea here is to teach scientific concepts and nomenclature through gaming...
+I mean so many of us like games, also the simple min ones played while waiting in a queue.
+How many times you remember the details of even the simplest game you played, the names of characters, places objects etc. Some of them stay with us for years. 
+So, I thought why not use that in education and create games which teach but hopefully are not boarding but engaging. 
+So here is a beginning of the Science Arcade platform, where information and education meet in one space :) 
+
+I made, for now two mini games using Phaser3 framework.
+The Science Arcade platform itself is a React app connecting to a small API I build. In turn my API connects to a Netlify API which allows to automatically deploy a website from a zip file (Phaser games are in rendered in HTML canvas) which is how new games can be uploaded to my Science Arcade library. 
+https://docs.netlify.com/api/get-started/#deploy-with-the-api
 
 
-
-
-
-
-
-
-
+I hope you enjoy my idea and contact me if you have any questions or comments :) 
 
 
 
