@@ -16,6 +16,7 @@ The Science Arcade platform itself is a React app connecting to a small API I bu
 https://docs.netlify.com/api/get-started/#deploy-with-the-api
 
 
+The grapfical elements on the website as well as inside the games (including the game sound effects) are all made by me.
 I hope you enjoy my idea and contact me if you have any questions or comments :) 
 
 
