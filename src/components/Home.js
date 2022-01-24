@@ -18,7 +18,7 @@ const Home = () => {
           <div className="paragraph">
             <h1>Science Facts</h1>
             <p>Viruses - a tiny things carrying their own genetic material.</p> 
-            <p>Genetic material ia a substance that has an information of of how you look and how to make more of you.  </p>
+            <p>Genetic material is a substance that has an information of of how you look and how to make more of you.  </p>
             <p>Curious thing about Viruses is that till now, we are still not sure if they are already alive or not quite yet. It is because of their super simple build.</p>
            <p>However Viruses need a way to make more of themselves, and for that they need a HOST.</p>
            <p>HOST - is another, more complex organism, Bacterium or a Human that Virus can use to reproduce.</p>
