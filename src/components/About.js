@@ -31,7 +31,7 @@ const About = () => {
                  <h3>I would like to hear from you, especcialy if you made it to this point 😆 so plese use the form on the Contact page to sent me a message</h3>
           </div>  
 
-          <div className="checkingBorder">some stuff here</div>     
+          {/* <div className="checkingBorder">some stuff here</div>      */}
 
         
           
