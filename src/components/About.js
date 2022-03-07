@@ -26,7 +26,7 @@ const About = () => {
              <p>Explain things look for information. But learning science, also for me was not always easy.I am sure many of you can relate</p>
              <h3>Therefore I decided to use all my skills and bring about his platform, where you can enjoy playing mini games and learn some scientific facts while doing so.</h3>
                <p>I mean do you even recall gaming? And do you recall all the odd names of characters you played and the places they visited and the temples and lands...
-                 So why not learning a few science facts this way too? I hope you enjoy the games, relax, and learn something here. </p> 
+                 So why not learning a few science facts this way too? I hope you enjoy the games, relax, and learn something new here. </p> 
                  <br></br>
                  <h3>I would like to hear from you, especcialy if you made it to this point 😆 so plese use the form on the Contact page to sent me a message</h3>
           </div>  
