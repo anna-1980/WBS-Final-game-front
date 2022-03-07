@@ -1,4 +1,4 @@
-import video from "../video/whatAreViruses.mp4";
+import video from "../assets/whatAreViruses.mp4";
 
 const Video2 = () => {
   return (
