@@ -11,10 +11,10 @@ const About = () => {
           <br></br>
           <p>It all started with my passion about science. I am a biologist by education and training.
             I also like to game, a bit. My life path led me through interest in plant physiology, drosophila development over to graphic desing...
-             Yes, you know I always liket to communicate my science with a few extra pictures and graphics here and there. 
+             Yes. I always liked to communicate my science with a few extra pictures and graphics here and there. 
              A time has come one day that I desired to have my own website in the world wide web. Like many trained researchers I began to,
-              well research/google how to make a website 😅. It turned out to be not so easy for someone who had never done it nand did not know how to code. There is html, there is CSS and ... 
-              there is Javascript. Well luckily for me I found out there are great courser where in just a few month you can turn a 
+              well research/google how to make a website 😅. It turned out to be not so easy for someone who had never done it and did not know how to code. There is HTML, there is CSS and ... 
+              there is JavaScript. Well luckily for me I found out there are great courser where in just a few month you can turn a 
               NONE coder into a CODER 😁.</p>
               <h4>So here I am, coding.</h4> 
               <p>As I learned more and discovered PHASER ( a great game making framework) My inner voices (yes I hear more that one 🤔 ), the grapfic designer and the scientist whispered to me:</p>
