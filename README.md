@@ -1,6 +1,6 @@
 Hello :) 
 
-This is a repository containing front end part if a final project for graduating my Full Stack Web-Dev Boot Camp. 
+This is a repository containing front end part of a final project for graduating my Full Stack Web-Dev Boot Camp. 
 It is an beginning of a gaming portal project which I called: 
 
 Science Arcade
