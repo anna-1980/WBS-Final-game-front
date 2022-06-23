@@ -38,7 +38,21 @@ const PostGames = () => {
   return (
     <div className="pageHead">
       <h1> ⭐ Post a new game ⭐</h1>
-
+      <br />
+      <div className="postGameInfo">
+        <h4>How to add a new game: </h4>
+        <br />
+        <ul >
+          <li>Make a game to show/teach at least one scientific concept</li>
+          <li>create the game using Phaser3 framework</li>
+          <li>convert your game into ZIP file</li>
+          <li>upload to Science Arcade</li>
+          <li>after uploading your game will be automatically deployed 
+            and you can find it in the 
+            <Link to="/Games"> games </Link> section</li>
+        </ul>
+      </div>
+      <br />
       <div className="form2">
         <form onSubmit={uploadGame}>
           <input type="hidden" name="form-name" value="contact" />
